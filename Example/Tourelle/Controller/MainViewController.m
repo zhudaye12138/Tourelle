@@ -29,13 +29,13 @@
 - (IBAction)gotoHeroVC:(id)sender {
     [TLRouter openURL:@"tourelle://strategy/hero?heroID=9527" callback:^(BOOL result) {
         if (!result) {
-            [SVProgressHUD showWithStatus:@"打开失败"];
+            [SVProgressHUD showInfoWithStatus:@"打开失败"];
         }
     }];
 }
 
 - (IBAction)gotoLoginVC:(id)sender {
-    [TLRouter openURL:@"tourelle://account/login?paramA=233&paramB=hhh"];
+    [TLRouter openURL:@"InnerJump://account/login?paramA=233&paramB=hhh"];
 }
 
 

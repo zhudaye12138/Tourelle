@@ -11,14 +11,11 @@ NSString * const KDidChangeStatusBarOrientation = @"didChangeStatusBarOrientatio
 @implementation TLAppEventBus (Example)
 
 -(void)setDidChangeStatusBarOrientation:(NSNotification *)didChangeStatusBarOrientation {
-    
     objc_setAssociatedObject(self, (__bridge const void *)KDidChangeStatusBarOrientation , didChangeStatusBarOrientation, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 -(NSNotification *)didChangeStatusBarOrientation {
-
     return objc_getAssociatedObject(self, (__bridge const void *)KDidBecomeActive);
-
 }
 
 @end

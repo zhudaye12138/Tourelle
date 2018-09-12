@@ -62,6 +62,9 @@
     if (block) {
         block(tlUrl,callback);
     }
+    else {
+        callback(false);
+    }
 }
 
 +(BOOL )openURL:(NSString *)url param:(NSDictionary<NSString *,id> *)param {
@@ -76,9 +79,9 @@
     
     if (block) {
         block(tlUrl,callback);
+        dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
     }
     
-    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
     return reslut;
 }
 

@@ -87,7 +87,8 @@ NSString *const AutoRegistURLPlist = @"AutoRegistURL.plist";
                     callback(result);
                 }
             }];
-
+            
+ 
         }];
     }
 }

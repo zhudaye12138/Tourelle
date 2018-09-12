@@ -20,6 +20,9 @@
 @interface TLAppLaunchHelper : NSObject
 @property (nonatomic, strong, readonly) dispatch_queue_t launchQueue;
 @property (nonatomic, class, readonly) TLAppLaunchHelper* shared;
+
+//init modules with AutoInitialize
 -(void)autoInitialize;
+//init url with AutoRegistURL
 -(void)autoRegistURL;
 @end

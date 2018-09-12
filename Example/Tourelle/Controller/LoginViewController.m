@@ -26,7 +26,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"登录";
     self.desc = [UILabel new];
@@ -42,10 +41,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 -(BOOL)presentingSelf {
     UINavigationController *rootVC = (UINavigationController *) APPWINDOW.rootViewController;
-    
     if (rootVC) {
         [rootVC pushViewController:self animated:YES];
         return YES;

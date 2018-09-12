@@ -26,7 +26,8 @@
 -(void)initializeWithParam:(NSDictionary<NSString *,id> *)params {
     
     if (self.scheme || self.host) {
-        _urlWithoutParms = [[self.scheme stringByAppendingString:@"://"] stringByAppendingString:[self.host stringByAppendingString:self.relativePath]];
+        NSString *relativePath = [self.host stringByAppendingString:self.relativePath];
+        _urlWithoutParms = [[self.scheme stringByAppendingString:@"://"] stringByAppendingString:(relativePath==nil?@"":relativePath)];
     }
 
     NSMutableDictionary *dict = [NSMutableDictionary new];

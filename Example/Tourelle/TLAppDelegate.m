@@ -18,7 +18,10 @@
 {
     [TLAppLaunchHelper.shared autoInitialize];//根据AutoInitialize.plist 自动初始化组件
     [TLAppLaunchHelper.shared autoRegistURL];//根据AutoRegistURL.plist 自动初始化路由
-    [TLAppEventBus.shared start];//开启EventBus，开启后组件可收到App生命周期事件
+    
+    NSMutableDictionary *defaultMap = [NSMutableDictionary dictionaryWithDictionary:[TLAppEventBus defaultNotificationMap]];
+    [defaultMap setObject:KDidChangeStatusBarOrientation forKey:UIApplicationWillChangeStatusBarOrientationNotification];
+    [TLAppEventBus.shared startWithNotificationMap:defaultMap];//开启EventBus，开启后组件可收到App生命周期事件
 
     return YES;
 }

@@ -66,7 +66,7 @@ NSString * const KSignificantTimeChange = @"significantTimeChange";
         self.notificaitonMap = map;
     }
     else {
-        NSLog(@"TLAppEventBus is running now , please callstop first");
+        NSLog(@"TLAppEventBus is running now , please call stop first");
     }
 }
 
