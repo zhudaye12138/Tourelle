@@ -1,0 +1,22 @@
+{
+  "name": "Tourelle",
+  "version": "0.1.0",
+  "summary": "A short description of Tourelle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sczh2013@163.com/Tourelle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sczh2013@163.com": "heng.zhu@phicomm.com"
+  },
+  "source": {
+    "git": "https://github.com/sczh2013@163.com/Tourelle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Tourelle/**/*"
+}

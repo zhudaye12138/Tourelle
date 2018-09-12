@@ -1,0 +1,16 @@
+
+platform :ios, '8.0'
+target 'Tourelle_Example' do
+  use_frameworks!
+  pod 'Tourelle', :path => '../'
+  pod 'SVProgressHUD'
+  pod 'UMengUShare/UI'
+  pod 'UMengUShare/Social/WeChat'
+  pod 'UMengUShare/Social/QQ'
+  pod 'Harpy'
+  target 'Tourelle_Tests' do
+    inherit! :search_paths
+    pod 'Quick'
+    pod 'Nimble'
+  end
+end

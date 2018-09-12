@@ -1,0 +1,55 @@
+PODS:
+  - Harpy (4.1.14)
+  - Nimble (7.1.3)
+  - Quick (1.3.1)
+  - SVProgressHUD (2.2.5)
+  - Tourelle (0.1.0)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Social/QQ (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - Harpy
+  - Nimble
+  - Quick
+  - SVProgressHUD
+  - Tourelle (from `../`)
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Harpy
+    - Nimble
+    - Quick
+    - SVProgressHUD
+    - UMengUShare
+
+EXTERNAL SOURCES:
+  Tourelle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Harpy: b2fbe6819f6a8932df32d7cd2fb20f442df86bbc
+  Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
+  Quick: d17304d58d0d169dd0bd1c6e5c28e3318de32a1a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Tourelle: 15d4490a4db3a1f47241eff7a676cecf9bfd695a
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
+
+PODFILE CHECKSUM: 04095ca7dc00ac15b7d8ae1767a6e692d63ca36d
+
+COCOAPODS: 1.5.3

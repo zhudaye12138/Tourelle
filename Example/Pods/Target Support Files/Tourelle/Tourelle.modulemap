@@ -1,0 +1,6 @@
+framework module Tourelle {
+  umbrella header "Tourelle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TLUMShareConfigurator</key>
+	<dict>
+		<key>appkey</key>
+		<string>aaaaaaaaaaaaaaaaaaaa</string>
+		<key>qqConfigDict</key>
+		<dict>
+			<key>appkey</key>
+			<string>bbbbbbbbbbbbb</string>
+			<key>appsecret</key>
+			<string>cccccccccccccc</string>
+			<key>redirectUrl</key>
+			<string>http://mobile.umeng.com/social</string>
+			<key>scheme</key>
+			<string>QQ1234567://</string>
+		</dict>
+		<key>weChatConfigDict</key>
+		<dict>
+			<key>appkey</key>
+			<string>eeeeeeeeeeeeee</string>
+			<key>appsecret</key>
+			<string>ffffffffffffffffffffff</string>
+			<key>redirectUrl</key>
+			<string>http://mobile.umeng.com/social</string>
+			<key>scheme</key>
+			<string>wx1234567://</string>
+		</dict>
+	</dict>
+	<key>TLHarpyConfigurator</key>
+	<dict>
+		<key>isAppStore</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

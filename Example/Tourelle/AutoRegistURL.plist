@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InnerJump://account/login</key>
+	<dict>
+		<key>controller</key>
+		<string>LoginViewController</string>
+		<key>params</key>
+		<dict>
+			<key>paramA</key>
+			<string></string>
+			<key>paramB</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>InnerJump://strategy/hero</key>
+	<dict>
+		<key>controller</key>
+		<string>HeroViewController</string>
+		<key>params</key>
+		<array>
+			<string>heroID</string>
+		</array>
+	</dict>
+</dict>
+</plist>

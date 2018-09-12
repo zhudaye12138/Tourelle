@@ -1,0 +1,15 @@
+﻿/* Update alert message: A new version of {APP NAME} is available. Please update to version {NEW VERSION} now.*/
+"A new version of %@ is available. Please update to version %@ now."="Доступна новая версия %@. Пожалуйста, обновитесь до версии %@ сейчас.";
+
+/* Update alert title */
+"Update Available"="Доступно обновление";
+
+/* Update alert dismiss button title */
+"Next time"="В следующий раз";
+
+/* Update alert skip button title */
+"Skip this version"="Пропустить эту версию";
+
+/* Update alert skip button title */
+"Update"="Обновить";
+

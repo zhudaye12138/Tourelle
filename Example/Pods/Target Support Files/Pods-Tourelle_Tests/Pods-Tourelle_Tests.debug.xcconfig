@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "${PODS_CONFIGURATION_BUILD_DIR}/Nimble" "${PODS_CONFIGURATION_BUILD_DIR}/Quick" "${PODS_CONFIGURATION_BUILD_DIR}/Harpy" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/Tourelle" "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK" "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK" "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UMengUShare"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDKPlugin" "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ" "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/WeChat" "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/WeChat/WechatSDK"
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Nimble/Nimble.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Quick/Quick.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Harpy/Harpy.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Tourelle/Tourelle.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/UMengUShare"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Nimble" -framework "QuartzCore" -framework "Quick" -framework "SystemConfiguration"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
