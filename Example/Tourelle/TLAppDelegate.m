@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [TLAppLaunchHelper.shared autoInitialize];//根据AutoInitialize.plist 自动初始化组件
+    [TLAppLaunchHelper.shared autoInitModule];//根据AutoInitialize.plist 自动初始化组件
     [TLAppLaunchHelper.shared autoRegistURL];//根据AutoRegistURL.plist 自动初始化路由
     
     NSMutableDictionary *defaultMap = [NSMutableDictionary dictionaryWithDictionary:[TLAppEventBus defaultNotificationMap]];

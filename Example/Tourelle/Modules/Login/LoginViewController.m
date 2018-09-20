@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "TLAppDelegate.h"
+#import "TLUserModuleContainer.h"
 
 @interface LoginViewController ()
 @property (nonatomic, strong) UILabel *desc;
@@ -34,6 +35,9 @@
     [self.view addSubview:self.desc];
     self.desc.textColor = [UIColor blueColor];
     self.desc.text = [self.param description];
+    
+    NSLog(@"userid = %@",TLUserModuleContainer.module.userID);
+    NSLog(@"nickName = %@",TLUserModuleContainer.module.nickName);
 }
 
 - (void)didReceiveMemoryWarning {

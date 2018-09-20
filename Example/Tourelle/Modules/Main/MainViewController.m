@@ -27,7 +27,7 @@
 }
 
 - (IBAction)gotoHeroVC:(id)sender {
-    [TLRouter openURL:@"tourelle://strategy/hero?heroID=9527" callback:^(BOOL result) {
+    [TLRouter openURL:@"InnerJump://strategy/hero?heroID=9527" callback:^(BOOL result) {
         if (!result) {
             [SVProgressHUD showInfoWithStatus:@"打开失败"];
         }
@@ -38,6 +38,12 @@
     [TLRouter openURL:@"InnerJump://account/login?paramA=233&paramB=hhh"];
 }
 
-
+- (IBAction)gotoInvalidURL:(id)sender {
+    [TLRouter openURL:@"tourelle://strategy/hero?heroID=9527" callback:^(BOOL result) {
+        if (!result) {
+            [SVProgressHUD showInfoWithStatus:@"打开失败"];
+        }
+    }];
+}
 
 @end

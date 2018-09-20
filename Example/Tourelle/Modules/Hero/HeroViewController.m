@@ -8,6 +8,7 @@
 
 #import "HeroViewController.h"
 #import "TLAppDelegate.h"
+#import "TLUserModuleContainer.h"
 
 @interface HeroViewController ()
 @property (nonatomic, strong) UILabel *desc;
@@ -35,6 +36,8 @@
     [self.view addSubview:self.desc];
     self.desc.textColor = [UIColor blueColor];
     self.desc.text = [NSString stringWithFormat:@"英雄ID = %@",self.heroID];
+    
+    [TLUserModuleContainer.module setUserInfo:@{@"nickName":@"newNickName"}];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -41,12 +41,25 @@
                                     <action selector="gotoLoginVC:" destination="whP-gf-Uak" eventType="touchUpInside" id="81X-IK-WaM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvf-Th-a03">
+                                <rect key="frame" x="15" y="214" width="345" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="315" id="VOD-Pb-uEW"/>
+                                </constraints>
+                                <state key="normal" title="无效跳转"/>
+                                <connections>
+                                    <action selector="gotoInvalidURL:" destination="whP-gf-Uak" eventType="touchUpInside" id="X8U-Pq-ubM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lW0-Zf-lQI" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="EOC-kN-nFl"/>
+                            <constraint firstItem="kvf-Th-a03" firstAttribute="top" secondItem="7WQ-bE-WWg" secondAttribute="bottom" constant="30" id="PBj-ao-FTR"/>
                             <constraint firstItem="lW0-Zf-lQI" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="30" id="Pil-Rk-Wh3"/>
                             <constraint firstItem="7WQ-bE-WWg" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="dUT-Q0-ZrY"/>
+                            <constraint firstAttribute="trailing" secondItem="kvf-Th-a03" secondAttribute="trailing" constant="15" id="fBo-H0-fk3"/>
+                            <constraint firstItem="kvf-Th-a03" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="15" id="p1h-aE-VDF"/>
                             <constraint firstItem="7WQ-bE-WWg" firstAttribute="top" secondItem="lW0-Zf-lQI" secondAttribute="bottom" constant="30" id="tK9-mf-8CQ"/>
                         </constraints>
                     </view>
