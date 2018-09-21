@@ -21,12 +21,16 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		A00683440BC0E7E7462167D6 /* Pods_Tourelle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5CEB5021BA47CCA3E47BC1 /* Pods_Tourelle_Tests.framework */; };
 		ACE7EBB96DB47BF8E4A35AB7 /* Pods_Tourelle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D42A9AC7826F47F781764AE /* Pods_Tourelle_Example.framework */; };
-		F1316AAF21424C8F002B1BBE /* TLUMShareConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1316AA421424C8F002B1BBE /* TLUMShareConfigurator.m */; };
-		F1316AB121424C8F002B1BBE /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1316AA921424C8F002B1BBE /* HeroViewController.m */; };
-		F1316AB221424C8F002B1BBE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1316AAA21424C8F002B1BBE /* LoginViewController.m */; };
-		F1316AB321424C8F002B1BBE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1316AAB21424C8F002B1BBE /* MainViewController.m */; };
-		F13FFDE521479B2D00C75759 /* TLHarpyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FFDE421479B2D00C75759 /* TLHarpyConfigurator.m */; };
+		F10C298521524BDC008397AF /* DataModules.plist in Resources */ = {isa = PBXBuildFile; fileRef = F10C298421524BDC008397AF /* DataModules.plist */; };
+		F1126132215354E500E72641 /* TLUserModuleContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F112612F215354E500E72641 /* TLUserModuleContainer.m */; };
+		F112613C21536A2D00E72641 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F112613421536A2D00E72641 /* MainViewController.m */; };
+		F112613D21536A2D00E72641 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F112613721536A2D00E72641 /* LoginViewController.m */; };
+		F112613E21536A2D00E72641 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F112613A21536A2D00E72641 /* HeroViewController.m */; };
+		F112614021536A4100E72641 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F112613F21536A4000E72641 /* README.md */; };
 		F15A77C2211FD64D00273C95 /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A77BE211FD64700273C95 /* SwiftSpec.swift */; };
+		F1988C652150CEE60011C3E9 /* TLHarpyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1988C592150CEE60011C3E9 /* TLHarpyConfigurator.m */; };
+		F1988C672150CEE60011C3E9 /* TLUMShareConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1988C602150CEE60011C3E9 /* TLUMShareConfigurator.m */; };
+		F1988C6C2150CF570011C3E9 /* TLUserModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F1988C6B2150CF570011C3E9 /* TLUserModule.m */; };
 		F19E7D79212307DB00538386 /* AutoInitialize.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19E7D78212307DB00538386 /* AutoInitialize.plist */; };
 		F1AF66C721363F58008E6493 /* AutoRegistURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1AF66C621363F58008E6493 /* AutoRegistURL.plist */; };
 		F1AF66DA21392232008E6493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AF66D621392231008E6493 /* LaunchScreen.storyboard */; };
@@ -72,18 +76,25 @@
 		9B845EA9D7D3EDDCAD034FC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D5EA1E7BC942C31FA159468A /* Pods-Tourelle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tourelle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tourelle_Example/Pods-Tourelle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC5CEB5021BA47CCA3E47BC1 /* Pods_Tourelle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tourelle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1316AA421424C8F002B1BBE /* TLUMShareConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUMShareConfigurator.m; sourceTree = "<group>"; };
-		F1316AA621424C8F002B1BBE /* TLUMShareConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUMShareConfigurator.h; sourceTree = "<group>"; };
-		F1316AA921424C8F002B1BBE /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
-		F1316AAA21424C8F002B1BBE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		F1316AAB21424C8F002B1BBE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		F1316AAC21424C8F002B1BBE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		F1316AAD21424C8F002B1BBE /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
-		F1316AAE21424C8F002B1BBE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		F13FFDE321479B2D00C75759 /* TLHarpyConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLHarpyConfigurator.h; sourceTree = "<group>"; };
-		F13FFDE421479B2D00C75759 /* TLHarpyConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLHarpyConfigurator.m; sourceTree = "<group>"; };
+		F10C298421524BDC008397AF /* DataModules.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataModules.plist; sourceTree = "<group>"; };
+		F112612F215354E500E72641 /* TLUserModuleContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUserModuleContainer.m; sourceTree = "<group>"; };
+		F1126130215354E500E72641 /* TLUserModuleContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserModuleContainer.h; sourceTree = "<group>"; };
+		F1126131215354E500E72641 /* TLUserModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserModuleProtocol.h; sourceTree = "<group>"; };
+		F112613421536A2D00E72641 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F112613521536A2D00E72641 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F112613721536A2D00E72641 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F112613821536A2D00E72641 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F112613A21536A2D00E72641 /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		F112613B21536A2D00E72641 /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		F112613F21536A4000E72641 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F15A77BD211FD64700273C95 /* Tourelle_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tourelle_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		F15A77BE211FD64700273C95 /* SwiftSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
+		F1988C592150CEE60011C3E9 /* TLHarpyConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHarpyConfigurator.m; sourceTree = "<group>"; };
+		F1988C5A2150CEE60011C3E9 /* TLHarpyConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHarpyConfigurator.h; sourceTree = "<group>"; };
+		F1988C602150CEE60011C3E9 /* TLUMShareConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUMShareConfigurator.m; sourceTree = "<group>"; };
+		F1988C612150CEE60011C3E9 /* TLUMShareConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUMShareConfigurator.h; sourceTree = "<group>"; };
+		F1988C6A2150CF570011C3E9 /* TLUserModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserModule.h; sourceTree = "<group>"; };
+		F1988C6B2150CF570011C3E9 /* TLUserModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUserModule.m; sourceTree = "<group>"; };
 		F19E7D78212307DB00538386 /* AutoInitialize.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AutoInitialize.plist; sourceTree = "<group>"; };
 		F1AF66C621363F58008E6493 /* AutoRegistURL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AutoRegistURL.plist; sourceTree = "<group>"; };
 		F1AF66D721392231008E6493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -158,8 +169,7 @@
 		6003F593195388D20070C39A /* Example for Tourelle */ = {
 			isa = PBXGroup;
 			children = (
-				F1316AA321424C8F002B1BBE /* Configurator */,
-				F1316AA821424C8F002B1BBE /* Controller */,
+				F1988C4A2150CBDF0011C3E9 /* Modules */,
 				F1AF66D621392231008E6493 /* LaunchScreen.storyboard */,
 				F1AF66D821392231008E6493 /* Main.storyboard */,
 				6003F59C195388D20070C39A /* TLAppDelegate.h */,
@@ -183,6 +193,7 @@
 				6003F59B195388D20070C39A /* Tourelle-Prefix.pch */,
 				F19E7D78212307DB00538386 /* AutoInitialize.plist */,
 				F1D4B0562140C7BF000FEC82 /* AppConfigurator.plist */,
+				F10C298421524BDC008397AF /* DataModules.plist */,
 				F1AF66C621363F58008E6493 /* AutoRegistURL.plist */,
 			);
 			name = "Supporting Files";
@@ -220,35 +231,94 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		F1316AA321424C8F002B1BBE /* Configurator */ = {
+		F112612E215354E500E72641 /* TLUserModuleContainer */ = {
 			isa = PBXGroup;
 			children = (
-				F1316AA621424C8F002B1BBE /* TLUMShareConfigurator.h */,
-				F1316AA421424C8F002B1BBE /* TLUMShareConfigurator.m */,
-				F13FFDE321479B2D00C75759 /* TLHarpyConfigurator.h */,
-				F13FFDE421479B2D00C75759 /* TLHarpyConfigurator.m */,
+				F1126131215354E500E72641 /* TLUserModuleProtocol.h */,
+				F1126130215354E500E72641 /* TLUserModuleContainer.h */,
+				F112612F215354E500E72641 /* TLUserModuleContainer.m */,
 			);
-			path = Configurator;
-			sourceTree = "<group>";
+			name = TLUserModuleContainer;
+			path = Tourelle/Modules/TLUserModuleContainer;
+			sourceTree = SOURCE_ROOT;
 		};
-		F1316AA821424C8F002B1BBE /* Controller */ = {
+		F112613321536A2D00E72641 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F1316AAC21424C8F002B1BBE /* LoginViewController.h */,
-				F1316AAA21424C8F002B1BBE /* LoginViewController.m */,
-				F1316AAD21424C8F002B1BBE /* HeroViewController.h */,
-				F1316AA921424C8F002B1BBE /* HeroViewController.m */,
-				F1316AAE21424C8F002B1BBE /* MainViewController.h */,
-				F1316AAB21424C8F002B1BBE /* MainViewController.m */,
+				F112613521536A2D00E72641 /* MainViewController.h */,
+				F112613421536A2D00E72641 /* MainViewController.m */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
+			name = Main;
+			path = Tourelle/Modules/Main;
+			sourceTree = SOURCE_ROOT;
+		};
+		F112613621536A2D00E72641 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F112613821536A2D00E72641 /* LoginViewController.h */,
+				F112613721536A2D00E72641 /* LoginViewController.m */,
+			);
+			name = Login;
+			path = Tourelle/Modules/Login;
+			sourceTree = SOURCE_ROOT;
+		};
+		F112613921536A2D00E72641 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				F112613B21536A2D00E72641 /* HeroViewController.h */,
+				F112613A21536A2D00E72641 /* HeroViewController.m */,
+			);
+			name = Hero;
+			path = Tourelle/Modules/Hero;
+			sourceTree = SOURCE_ROOT;
 		};
 		F15A77BC211FD62400273C95 /* Supporting Classes */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		F1988C4A2150CBDF0011C3E9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F112613F21536A4000E72641 /* README.md */,
+				F112613921536A2D00E72641 /* Hero */,
+				F112613621536A2D00E72641 /* Login */,
+				F112613321536A2D00E72641 /* Main */,
+				F1988C692150CF570011C3E9 /* TLUser */,
+				F1988C582150CEE60011C3E9 /* TLHarpy */,
+				F1988C5F2150CEE60011C3E9 /* TLUMShare */,
+				F112612E215354E500E72641 /* TLUserModuleContainer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F1988C582150CEE60011C3E9 /* TLHarpy */ = {
+			isa = PBXGroup;
+			children = (
+				F1988C5A2150CEE60011C3E9 /* TLHarpyConfigurator.h */,
+				F1988C592150CEE60011C3E9 /* TLHarpyConfigurator.m */,
+			);
+			path = TLHarpy;
+			sourceTree = "<group>";
+		};
+		F1988C5F2150CEE60011C3E9 /* TLUMShare */ = {
+			isa = PBXGroup;
+			children = (
+				F1988C612150CEE60011C3E9 /* TLUMShareConfigurator.h */,
+				F1988C602150CEE60011C3E9 /* TLUMShareConfigurator.m */,
+			);
+			path = TLUMShare;
+			sourceTree = "<group>";
+		};
+		F1988C692150CF570011C3E9 /* TLUser */ = {
+			isa = PBXGroup;
+			children = (
+				F1988C6A2150CF570011C3E9 /* TLUserModule.h */,
+				F1988C6B2150CF570011C3E9 /* TLUserModule.m */,
+			);
+			path = TLUser;
 			sourceTree = "<group>";
 		};
 		F9D7C1FAAF159305061D7DE9 /* Pods */ = {
@@ -353,6 +423,8 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				F1AF66DB21392232008E6493 /* Main.storyboard in Resources */,
+				F112614021536A4100E72641 /* README.md in Resources */,
+				F10C298521524BDC008397AF /* DataModules.plist in Resources */,
 				F1AF66C721363F58008E6493 /* AutoRegistURL.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,15 +547,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1316AB221424C8F002B1BBE /* LoginViewController.m in Sources */,
+				F1988C672150CEE60011C3E9 /* TLUMShareConfigurator.m in Sources */,
 				6003F59E195388D20070C39A /* TLAppDelegate.m in Sources */,
 				F1D4B05F2140D5B0000FEC82 /* NSObject+TL.swift in Sources */,
-				F1316AB321424C8F002B1BBE /* MainViewController.m in Sources */,
+				F1988C6C2150CF570011C3E9 /* TLUserModule.m in Sources */,
+				F112613D21536A2D00E72641 /* LoginViewController.m in Sources */,
+				F112613C21536A2D00E72641 /* MainViewController.m in Sources */,
 				F1BCE4F021205868003D26A8 /* TLAppEventBus+Example.m in Sources */,
+				F112613E21536A2D00E72641 /* HeroViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				F1316AB121424C8F002B1BBE /* HeroViewController.m in Sources */,
-				F1316AAF21424C8F002B1BBE /* TLUMShareConfigurator.m in Sources */,
-				F13FFDE521479B2D00C75759 /* TLHarpyConfigurator.m in Sources */,
+				F1126132215354E500E72641 /* TLUserModuleContainer.m in Sources */,
+				F1988C652150CEE60011C3E9 /* TLHarpyConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

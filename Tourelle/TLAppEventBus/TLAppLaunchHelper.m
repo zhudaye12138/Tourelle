@@ -37,7 +37,7 @@ NSString *const AutoRegistURLPlist = @"AutoRegistURL.plist";
     return _launchQueue;
 }
 
--(void)autoInitialize {
+-(void)autoInitModule {
     NSURL *url = [[NSBundle mainBundle] URLForResource:AutoInitializePlist withExtension:nil];
     if (url) {
         NSDictionary *dict = [NSDictionary dictionaryWithContentsOfURL:url];

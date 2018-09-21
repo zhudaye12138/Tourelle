@@ -11,6 +11,12 @@
 - (void)initializeWhenLaunch;
 @end
 
+
+@protocol IoCObjectProtocol
+-(instancetype)initWithParam:(NSDictionary *)param;
+@end
+
+
 /*
  AutoInitialize.plist
  classes
@@ -22,7 +28,8 @@
 @property (nonatomic, class, readonly) TLAppLaunchHelper* shared;
 
 //init modules with AutoInitialize
--(void)autoInitialize;
+-(void)autoInitModule;
 //init url with AutoRegistURL
 -(void)autoRegistURL;
+
 @end
